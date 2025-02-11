@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+        
+#mapa {
+    position: relative;
+    width: 800px; /* Ajuste a largura conforme necessário */
+    height: 600px; /* Ajuste a altura conforme necessário */
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background-image: url('imagens/mapa.jpg'); /* Substitua pelo link para a sua imagem do mapa */
+    background-size: cover;
+    background-position: center;
+}
+#carrinho {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('imagens/carrinho.jpeg'); /* Substitua pelo caminho para sua imagem de carrinho */
+    background-size: cover;
+}
+#inputs {
+    margin-top: 20px;
+}
+.inputs-content{
+    text-align: center;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+    
+
+        

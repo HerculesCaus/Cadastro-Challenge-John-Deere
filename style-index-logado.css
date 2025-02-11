@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Começo do style do conteudo da página já cadastrado */
+.index-logado-imagem-fundo-content{
+    display: flex;
+}
+.index-logado-imagem-fundo{
+    margin: auto;
+}
+.index-logado-mensage-content{
+    display: flex;
+}
+.index-logado-mensage{
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* Fim do style do conteudo da página já cadastrado */

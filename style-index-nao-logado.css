@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.index-nao-logado-imagem-fundo-content{
+    display: flex;
+}
+.index-nao-logado-imagem-fundo{
+    margin: auto;
+}
+.index-nao-logado-mensage-content{
+    display: flex;
+}
+.index-nao-logado-mensage{
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+} 
+.index-nao-logado-btn-content{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 80px;
+}
+.index-nao-logado-cadastrar-btn{
+    background-color: #06820b;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    width: 150px;
+}
+.index-nao-logado-cadastrar-btn :hover{
+    color: yellow;
+}
+.index-nao-logado-logar-btn{
+    background-color: #06820b;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    width: 150px;
+}
+.index-nao-logado-logar-btn :hover{
+    color: yellow;
+}
